@@ -5,37 +5,14 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-image: url("./img/one.png");
-  height: 1500px;
+  background-color: #d0cadf7a;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
-.header {
-  font-size: larger;
-  font-family: "Indie Flower", cursive;
-  background-color: #9a83dd;
-  min-height: 5rem;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  color: #47299f;
-  font-weight: bold;
-}
-.footer {
-  font-family: "Indie Flower", cursive;
-  font-size: larger;
-  font-weight: bold;
-  background-color: #9a83dd;
-  min-height: 5rem;
-  width: 100%;
-  position: fixed;
-  bottom: 0;
-  color: #47299f;
-}
+
 .items {
   display: inline;
 }
@@ -46,4 +23,75 @@ ul {
 li {
   margin-left: 5rem;
   list-style-type: none;
+}
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    "header"
+    "main"
+    "footer";
+  grid-template-columns: 1fr;
+  grid-template-rows: 5rem 1fr 5rem;
+  height: 100%;
+}
+.header {
+  grid-area: header;
+  font-size: larger;
+  font-family: "Indie Flower", cursive;
+  background-color: #a799d17a;
+  min-height: 5rem;
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  justify-content: center;
+  color: #47299f;
+  font-weight: bold;
+  width: 100%;
+  position: fixed;
+}
+.footer {
+  grid-area: footer;
+  font-family: "Indie Flower", cursive;
+  font-size: larger;
+  font-weight: bold;
+  background-color: #a799d17a;
+  min-height: 5rem;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  color: #47299f;
+}
+.main {
+  grid-area: main;
+}
+.content {
+  font-family: "Amatic SC", cursive;
+  font-family: "Nunito", sans-serif;
+  color: #47299f;
+  width: 30rem;
+
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 0.5rem;
+  border: 0.1rem #a4a4a4 solid;
+  display: list-item;
+  list-style-type: none;
+}
+.projects {
+  width: 90rem;
+  margin: auto;
+}
+.project {
+  font-family: "Amatic SC", cursive;
+  font-family: "Nunito", sans-serif;
+  color: #47299f;
+  border: 0.1rem #a4a4a4 solid;
+  border-radius: 0.5rem;
+  text-align: center;
+  margin-top: 1rem;
 }

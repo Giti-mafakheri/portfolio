@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function About() {
+export default function Contact() {
   return (
     <div className="content">
       <h2>tesgkjasd;lf alkdsgha s;dlfkha;if {}</h2>
