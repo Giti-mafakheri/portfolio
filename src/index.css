@@ -13,3 +13,37 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+.header {
+  font-size: larger;
+  font-family: "Indie Flower", cursive;
+  background-color: #9a83dd;
+  min-height: 5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #47299f;
+  font-weight: bold;
+}
+.footer {
+  font-family: "Indie Flower", cursive;
+  font-size: larger;
+  font-weight: bold;
+  background-color: #9a83dd;
+  min-height: 5rem;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  color: #47299f;
+}
+.items {
+  display: inline;
+}
+ul {
+  display: flex;
+  justify-content: center;
+}
+li {
+  margin-left: 5rem;
+  list-style-type: none;
+}
