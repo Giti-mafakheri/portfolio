@@ -5,7 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #d0cadf7a;
+  background-color: #d3caeb7a;
 }
 
 code {
@@ -68,11 +68,13 @@ li {
 .content {
   font-family: "Amatic SC", cursive;
   font-family: "Nunito", sans-serif;
+
   color: #47299f;
   width: 30rem;
-
+  padding: 25px;
   display: flex;
   justify-content: center;
+
   position: absolute;
   top: 50%;
   left: 50%;
@@ -85,13 +87,24 @@ li {
 .projects {
   width: 90rem;
   margin: auto;
+  display: flex;
+  flex-direction: row;
 }
 .project {
   font-family: "Amatic SC", cursive;
   font-family: "Nunito", sans-serif;
   color: #47299f;
+  background-color: #d3cce77a;
   border: 0.1rem #a4a4a4 solid;
   border-radius: 0.5rem;
   text-align: center;
   margin-top: 1rem;
+  margin: 5px;
+  width: 35%;
+}
+.project img {
+  width: 97%;
+  height: 50%;
+
+  border-radius: 0.5rem;
 }

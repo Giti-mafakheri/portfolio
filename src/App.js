@@ -35,9 +35,18 @@ function App() {
         <div className="footer">
           <ul>
             <li>
-              <Link to="https://github.com/Giti-mafakheri">LinkedIn</Link>
+              <a href="https://github.com/Giti-mafakheri" target="_blank">
+                GitHub
+              </a>
             </li>
-            <li>GitHub</li>
+            <li>
+              <a
+                href="https://www.linkedin.com/in/giti-mafakheri/"
+                target="_blank"
+              >
+                LinkedIn
+              </a>
+            </li>
           </ul>
         </div>
       </div>
