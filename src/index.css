@@ -108,3 +108,7 @@ li {
 
   border-radius: 0.5rem;
 }
+
+input {
+  background-color: aquamarine;
+}

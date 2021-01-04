@@ -10,6 +10,7 @@ export default function Home() {
         IT support engineer.
       </p>
       <p>I enjoy writing code in javascript and its frameworks like react. </p>
+      <input className="primary"></input>
     </div>
   );
 }
