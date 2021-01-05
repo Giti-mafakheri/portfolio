@@ -3,7 +3,7 @@ import React from "react";
 export default function About() {
   return (
     <div className="content">
-      <h5>
+      <p>
         As a Junior Software Engineer with a Bachelor’s degree of information
         technology and a background in IT support, I have extensive experience
         working with cross-functional teams and collaborating with clients. For
@@ -32,7 +32,7 @@ export default function About() {
         problem-solving skills. Currently, I am working on my final project
         which is an e-commerce website and I used firebase for the back-end and
         react for the front-end.
-      </h5>
+      </p>
     </div>
   );
 }
