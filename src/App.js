@@ -11,7 +11,7 @@ function App() {
   return (
     <BrowserRouter>
       <div className="grid-container">
-        <boot.Navbar bg="light" expand="lg">
+        <boot.Navbar id="nav" bg="light" expand="lg">
           <boot.Navbar.Brand href="/">Home</boot.Navbar.Brand>
           <boot.Navbar.Toggle aria-controls="basic-navbar-nav" />
           <boot.Navbar.Collapse id="basic-navbar-nav">

@@ -13,6 +13,7 @@ export default class Projects extends Component {
           "Brief: A popular game in which you can choose which player to start the game and keep track of numbers of wins for each player",
         Img: tic,
         tech: "Tech: javascript, css, html, Jquery",
+        url: "https://giti-mafakheri.github.io/project0/",
       },
       {
         pName: "Photo Album",
@@ -20,6 +21,7 @@ export default class Projects extends Component {
           "Brief: A CRUD system used as photo album. You can save your photos in it and add a description for each of them",
         Img: album,
         tech: "Tech: React, Nodejs, graphql ,typography",
+        url: "https://giti-photo-album.netlify.app/",
       },
       {
         pName: "E-Commerce",
@@ -27,6 +29,7 @@ export default class Projects extends Component {
           "Brief: A full e-commerce website. Features include shopping cart, product list, shipping, and user login",
         Img: ecom,
         tech: "Tech: React, Redux, Nodejs, mongoodb",
+        url: "https://giti-mafakheri.github.io/project0/",
       },
     ];
     return (
@@ -38,6 +41,7 @@ export default class Projects extends Component {
             brief={pro.brief}
             Img={pro.Img}
             tech={pro.tech}
+            url={pro.url}
           />
         ))}
       </div>

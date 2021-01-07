@@ -10,7 +10,10 @@ export default function Cart(props) {
           <boot.Card.Title>{props.name}</boot.Card.Title>
           <boot.Card.Text>{props.brief}</boot.Card.Text>
           <boot.Card.Text className="techtest">{props.tech}</boot.Card.Text>
-          <boot.Button variant="primary">view</boot.Button>
+
+          <a href={props.url} target="_blank">
+            View Project
+          </a>
         </boot.Card.Body>
       </boot.Card>
     </div>
